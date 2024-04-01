@@ -3,6 +3,7 @@ import MyButton from './components/MyButton';
 import AboutPage from './components/AboutPage';
 import Profile from './components/Profile';
 import Condition from './components/Condition';
+import ShoppingList from './components/ShoppingList';
 
 export default function App() {
   return (
@@ -14,7 +15,9 @@ export default function App() {
 
       {/* <Profile/> */}
 
-      <Condition />
+      {/* <Condition /> */}
+
+      <ShoppingList/>
     </div>
   );
 }
