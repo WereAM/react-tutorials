@@ -5,10 +5,10 @@ import AboutPage from './components/AboutPage';
 export default function App() {
   return (
     <div>
-      {/* <h1> Welcome to my app</h1>
-      <MyButton/> */}
+      <h1> Welcome to my app</h1>
+      <MyButton/>
 
-      <AboutPage/>
+      {/* <AboutPage/> */}
     </div>
   );
 }

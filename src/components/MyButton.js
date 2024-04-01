@@ -1,6 +1,8 @@
+import '../App.css';
+
 export default function MyButton(){
     return(
-      <button>
+      <button className="thisButton">
         I'm a button
       </button>
     );
