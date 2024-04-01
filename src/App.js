@@ -8,8 +8,8 @@ import ShoppingList from './components/ShoppingList';
 export default function App() {
   return (
     <div>
-      {/* <h1> Welcome to my app</h1>
-      <MyButton/> */}
+      <h1> Welcome to my app</h1>
+      <MyButton/>
 
       {/* <AboutPage/> */}
 
@@ -17,7 +17,7 @@ export default function App() {
 
       {/* <Condition /> */}
 
-      <ShoppingList/>
+      {/* <ShoppingList/> */}
     </div>
   );
 }

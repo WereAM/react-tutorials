@@ -1,9 +1,19 @@
 import '../App.css';
 
 export default function MyButton(){
-    return(
-      <button className="thisButton">
-        I'm a button
-      </button>
-    );
+  function handleClick(){
+    alert('App is loading!');
+  }
+
+  return(
+    <button onClick={handleClick}>
+      Click me!
+    </button>
+  );
+
+    // return(
+    //   <button className="thisButton">
+    //     I'm a button
+    //   </button>
+    // );
   }
