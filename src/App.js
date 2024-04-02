@@ -9,10 +9,14 @@ import Board from './components/TicTacToe';
 import Form from './components/Form';
 import NewForm from './components/NewForm';
 import Accordion from './components/Accordion';
+import Messenger from './components/Messenger';
 
 export default function App() {
   return (
     <div>
+
+      <Messenger/>
+
       <Accordion/>
 
       <NewForm /> 
