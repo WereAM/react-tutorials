@@ -11,10 +11,13 @@ import NewForm from './components/NewForm';
 import Accordion from './components/Accordion';
 import Messenger from './components/Messenger';
 import Page from './components/Page';
+import ProfilePage from './components/ProfilePage';
 
 export default function App() {
   return (
     <div>
+      <ProfilePage/>
+      
       <Page/>
 
       <Messenger/>
