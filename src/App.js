@@ -10,10 +10,12 @@ import Form from './components/Form';
 import NewForm from './components/NewForm';
 import Accordion from './components/Accordion';
 import Messenger from './components/Messenger';
+import Page from './components/Page';
 
 export default function App() {
   return (
     <div>
+      <Page/>
 
       <Messenger/>
 
