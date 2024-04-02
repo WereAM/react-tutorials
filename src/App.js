@@ -7,12 +7,14 @@ import ShoppingList from './components/ShoppingList';
 import SharedButton from './components/SharedButton';
 import Board from './components/TicTacToe';
 import Form from './components/Form';
+import NewForm from './components/NewForm';
 
 export default function App() {
   return (
     <div>
+      <NewForm /> 
 
-      <Form/>
+      {/* <Form/> */}
 
       {/* <Board /> */}
 
