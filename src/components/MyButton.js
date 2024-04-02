@@ -1,13 +1,17 @@
 import '../App.css';
+import { useState } from 'react';
 
 export default function MyButton(){
+  const [count, setCount] = useState(0);
+
   function handleClick(){
-    alert('App is loading!');
+    setCount(count + 1);
+    // alert('App is loading!');
   }
 
   return(
     <button onClick={handleClick}>
-      Click me!
+      Clicked {count} times!
     </button>
   );
 

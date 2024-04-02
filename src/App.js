@@ -8,7 +8,9 @@ import ShoppingList from './components/ShoppingList';
 export default function App() {
   return (
     <div>
-      <h1> Welcome to my app</h1>
+      <h1> Counters taht update separately</h1>
+      <MyButton/>
+      <br/>
       <MyButton/>
 
       {/* <AboutPage/> */}
