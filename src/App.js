@@ -8,32 +8,35 @@ import SharedButton from './components/SharedButton';
 import Board from './components/TicTacToe';
 import Form from './components/Form';
 import NewForm from './components/NewForm';
+import Accordion from './components/Accordion';
 
 export default function App() {
   return (
     <div>
+      <Accordion/>
+
       <NewForm /> 
 
-      {/* <Form/> */}
+      <Form/>
 
-      {/* <Board /> */}
+      <Board />
 
-      {/* <h1> Counters that update separately</h1>
+      <h1> Counters that update separately</h1>
       <MyButton/>
       <br/>
       <MyButton/>
 
       <br/>
-      <SharedButton/> */}
+      <SharedButton/>
       
 
-      {/* <AboutPage/> */}
+      <AboutPage/>
 
-      {/* <Profile/> */}
+      <Profile/>
 
-      {/* <Condition /> */}
+      <Condition />
 
-      {/* <ShoppingList/> */}
+      <ShoppingList/>
     </div>
   );
 }
